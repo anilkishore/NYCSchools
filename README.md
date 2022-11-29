@@ -5,4 +5,5 @@
 
 
 ##### Screenshots
-| ![school_list](https://user-images.githubusercontent.com/1905832/204621357-3375e65f-8aa5-4a1b-8f1e-6974f996df70.png) | ![school_info](https://user-images.githubusercontent.com/1905832/204621354-f733e913-5781-4686-9137-dd7f65188bee.png) | 
+| ![School List](https://user-images.githubusercontent.com/1905832/204622126-ca15fefe-e780-4381-b0dc-a82fd311adf2.png) | 
+![School Info](https://user-images.githubusercontent.com/1905832/204622128-55af8876-fa56-4c25-bf02-6ccedaea6688.png) | 
