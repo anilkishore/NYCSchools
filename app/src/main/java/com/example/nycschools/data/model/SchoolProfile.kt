@@ -7,6 +7,12 @@ import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
+/**
+ * Simple data model for a school profile
+ *
+ * Similar to a POJO but in Kotlin to keep it concise and easy to understand. Each of the fields
+ * corresponding to JSON fields and also columns in the local DB cache.
+ */
 @Entity(tableName = "school_profiles_table")
 data class SchoolProfile(
 

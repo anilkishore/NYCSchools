@@ -14,6 +14,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.nycschools.R;
 import com.example.nycschools.viewmodel.SchoolViewModel;
 
+/**
+ * This fragment hosts the initial list of schools and is shown on App startup and hence is
+ * important to keep things light-weight for better startup performance.
+ */
 public class SchoolsListFragment extends Fragment {
 
     public static final String TAG = "SchoolListFragment";

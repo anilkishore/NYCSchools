@@ -10,8 +10,11 @@ import com.example.nycschools.data.model.SchoolProfile;
 import com.example.nycschools.data.model.SchoolSATScores;
 import com.example.nycschools.data.repository.SchoolRepository;
 
-import java.util.List;
-
+/**
+ * ViewModel for SAT scores of a particular school. This is the bridge between
+ * ui components and data sources and has longer life as compared to app components. Eg. this
+ * is retained through screen rotations.
+ */
 public class SATScoresViewModel extends AndroidViewModel {
 
     private final SchoolRepository mSchoolRepository;

@@ -9,6 +9,9 @@ import androidx.room.RoomDatabase;
 import com.example.nycschools.data.model.SchoolProfile;
 import com.example.nycschools.data.model.SchoolSATScores;
 
+/**
+ * Actual DB class that is abstracted via Room API. Interactions happen via Data access objects.
+ */
 @Database(entities = {SchoolProfile.class, SchoolSATScores.class}, version = 1, exportSchema =
         false)
 public abstract class SchoolDatabase extends RoomDatabase {

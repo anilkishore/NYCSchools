@@ -11,6 +11,9 @@ import com.example.nycschools.data.model.SchoolProfile;
 
 import java.util.List;
 
+/**
+ * Data access object for school profiles DB table based on the AndroidX Room architecture component
+ */
 @Dao
 public interface SchoolProfileDao {
 

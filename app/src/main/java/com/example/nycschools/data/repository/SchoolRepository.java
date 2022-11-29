@@ -16,13 +16,17 @@ import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * Repository to hide away data loading from rest of the App. This coordinates with different
+ * sources of data (network, local DB) and exposes LiveData to observe for changes
+ */
 public class SchoolRepository {
 
-    private SchoolProfileDao mSchoolProfileDao;
-    private SchoolSATScoresDao mSchoolSATScoresDao;
-    private ApiService mNetworkService = new NetworkService();
-    private LiveData<List<SchoolProfile>> mSchoolProfiles;
-    private ExecutorService mBgExecutorService = Executors.newSingleThreadExecutor();
+    private final SchoolProfileDao mSchoolProfileDao;
+    private final SchoolSATScoresDao mSchoolSATScoresDao;
+    private final ApiService mNetworkService = new NetworkService();
+    private final LiveData<List<SchoolProfile>> mSchoolProfiles;
+    private final ExecutorService mBgExecutorService = Executors.newSingleThreadExecutor();
 
     private static volatile SchoolRepository INSTANCE;
 

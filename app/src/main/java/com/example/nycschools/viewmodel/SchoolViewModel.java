@@ -11,6 +11,11 @@ import com.example.nycschools.data.repository.SchoolRepository;
 
 import java.util.List;
 
+/**
+ * ViewModel for an item in the list view that shows list of schools. This is the bridge between
+ * ui components and data sources and has longer life as compared to app components. Eg. this
+ * is retained through screen rotations.
+ */
 public class SchoolViewModel extends AndroidViewModel {
 
     private final SchoolRepository mSchoolRepository;

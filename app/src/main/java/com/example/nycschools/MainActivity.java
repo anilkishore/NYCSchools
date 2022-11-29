@@ -1,11 +1,15 @@
 package com.example.nycschools;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.nycschools.features.schoollist.SchoolsListFragment;
 
+/**
+ * Main activity. This is light-weight and hosts the first screen as a fragment to have flexibility
+ * to change layout per device model. For eg: to show multiple fragments on tablets.
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override

@@ -14,6 +14,9 @@ import com.example.nycschools.R;
 import com.example.nycschools.data.model.SchoolProfile;
 import com.example.nycschools.features.schoolinfo.SchoolInfoActivity;
 
+/**
+ * Holds item views of individual list items and only does binding
+ */
 public class SchoolProfileViewHolder extends RecyclerView.ViewHolder {
     public SchoolProfileViewHolder(@NonNull View itemView) {
         super(itemView);

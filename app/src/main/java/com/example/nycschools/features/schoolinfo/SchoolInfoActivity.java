@@ -18,6 +18,9 @@ import com.example.nycschools.data.model.SchoolProfile;
 import com.example.nycschools.data.model.SchoolSATScores;
 import com.example.nycschools.viewmodel.SATScoresViewModel;
 
+/**
+ * Secondary screen that shows info about the selected school along with SAT scores
+ */
 public class SchoolInfoActivity extends AppCompatActivity {
 
     public final static String EXTRA_SCHOOL_PROFILE = "SCHOOL_PROFILE";
@@ -62,7 +65,7 @@ public class SchoolInfoActivity extends AppCompatActivity {
         satScores.observe(this, new Observer<SchoolSATScores>() {
             @Override
             public void onChanged(@Nullable SchoolSATScores scores) {
-                StringBuilder sb = new StringBuilder("");
+                StringBuilder sb = new StringBuilder();
                 if (scores != null) {
                     if (scores.getNumOfSatTestTakers() != null) {
                         sb.append("Number of test takers: " + scores.getNumOfSatTestTakers() +

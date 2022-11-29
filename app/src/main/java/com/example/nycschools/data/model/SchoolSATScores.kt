@@ -6,6 +6,12 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 
+/**
+ * Simple data model for SAT scores of a school
+ *
+ * Similar to a POJO but in Kotlin to keep it concise and easy to understand. Each of the fields
+ * corresponding to JSON fields and also columns in the local DB cache.
+ */
 @Entity(tableName = "school_scores_table")
 data class SchoolSATScores(
 
