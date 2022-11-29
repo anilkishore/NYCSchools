@@ -6,10 +6,10 @@
 
 #### App functionality
 1. Shows list of NYC High Schools sourced from network API
-2. On selecting a schoo, in a separate screen show all the SAT scores, including contact info and other details
+2. On selecting a school, in a separate screen show SAT scores for the school.
+3. Also includes contact info, email and phone that are clickable.
 
 
-#### Tech
 
 #### Architecture components and corresponding code structure
 
@@ -33,7 +33,7 @@ On the right is the code structure to show modularity best practices to keep thi
 Further, the code is split by features to further isolate unrelated code. For this app, network calls using OkHttp library, DB and data observers using Room and LiveData (part of Android Jetpack) are used. 
 
 
-More possible features but less important for this initial challenge
+More feature ideas but less important for this initial challenge
 1. Network loading states, 2. Visually pleasing UI, 3. Search functionality, 4. Offline functionality etc.
 
 
