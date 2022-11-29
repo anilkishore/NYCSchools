@@ -20,12 +20,24 @@ Note: The following architecture diagram is from this [tutorial](https://google-
 
 
 
-On the right is the code structure to show modularity best practices to keep things isolated and do one or minimal things per component. Implementation and reasoning is as follows.
-* UI / Viewa 
-   1. fsdf
-* Model
-* ViewModel
-* Data
+On the right is the code structure to show modularity best practices to keep things isolated and have minimal complexity per component. Implementation and reasoning is as follows.
+
+1. UI / View
+   * Interacts with simple data objects and View Models
+2. Model
+   * Data objects holding properties to set on views with minimal processing
+3. ViewModel
+   * Bridge between data sources and Views
+   * Data source is conveniently abstracted in `Repository` 
+
+Further, the code is split by features to further isolate unrelated code. For this app, network calls using OkHttp library, DB and data observers using Room and LiveData (part of Android Jetpack) are used. 
+
+
+More possible features but less important for this initial challenge
+1. Network loading states, 2. Visually pleasing UI, 3. Search functionality, 4. Offline functionality etc.
+
+
+
 
 
 
