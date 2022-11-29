@@ -1,6 +1,6 @@
-# NYC Schools
+## NYC Schools
 
-## Coding challenge, preliminary screening round, JPM Chase
+#### Coding challenge, preliminary screening round, JPM Chase
 
-### by Anil Kalavagattu (anil.daiict@gmail.com)
+###### by Anil Kalavagattu (anil.daiict@gmail.com)
 
