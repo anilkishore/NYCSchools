@@ -36,6 +36,9 @@ Further, the code is split by features to further isolate unrelated code. For th
 More feature ideas but less important for this initial challenge
 1. Network loading states, 2. Visually pleasing UI, 3. Search functionality, 4. Offline functionality etc.
 
+Note on tests:
+Haven't added them for the time being and can iterate on the feedback I receive. Thanks!
+
 
 
 
