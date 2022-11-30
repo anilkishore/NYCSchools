@@ -46,4 +46,6 @@ Haven't added them for the time being and can iterate on the feedback I receive.
 
 
 #### Screenshots
-| ![School List](https://user-images.githubusercontent.com/1905832/204622126-ca15fefe-e780-4381-b0dc-a82fd311adf2.png) | ![School Info](https://user-images.githubusercontent.com/1905832/204622128-55af8876-fa56-4c25-bf02-6ccedaea6688.png) | 
+| ![Screen Shot 2022-11-29 at 10 43 04 PM](https://user-images.githubusercontent.com/1905832/204726232-79abb64e-da37-460e-a01c-6b7508b6eeb6.png) | ![Screen Shot 2022-11-29 at 10 43 17 PM](https://user-images.githubusercontent.com/1905832/204726227-b0369037-96b4-4eca-bcb6-e67bece3531a.png) |
+
+
